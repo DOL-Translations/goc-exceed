@@ -1,6 +1,6 @@
 endian msb // GameCube PPC requires Big-Endian Encoding (Most Significant Bit)
-output "../output/Template [U].iso", create
-origin $000000; insert "../input/Template [J].iso"
+output "../output/Generation of Chaos Exceed [U].iso", create
+origin $000000; insert "../input/Generation of Chaos Exceed [J].iso"
 
 //Note: there is an experimental upgrade to Text() that simplified this process
 
@@ -49,8 +49,8 @@ macro ReplaceAsset(ORIGIN, FILE, SIZE) {
 }
 
 //Region
-Text($3, "E")
-origin $45B; db $01
+//Text($3, "E")
+//origin $45B; db $01
 
 //include "System.asm"
 //add more source files here

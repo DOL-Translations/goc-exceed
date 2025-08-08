@@ -1,6 +1,6 @@
 @echo off
 
-set ISOFile=..\input\Template [J].iso
+set ISOFile=..\input\Generation of Chaos Exceed [J].iso
 set ISOTargetSize=1459978240
 
 if not exist "%ISOFile%" (
